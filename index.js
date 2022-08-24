@@ -12,18 +12,9 @@ let contraseña = prompt("contraseña");
 if (usuario.toLowerCase === "gaby" &&  contraseña  === "090588" ) {alert ("ingresaste");} else {alert ("usuario y/o contraseña incorrecta");}
 */
 
-/*for(let i = 0; i < 20; i++){
-    alert ("hola gaby mendez")
-}
-*/
 
-/*let agua = parseInt(prompt("ingrese cantidad de litros de agua a comprar o para salir ingrese 100"));
-for (let i = 99 ; i < 100; i++){
-let pesos = agua * i ;
-let total = `${agua} * ${i} = ${pesos}` ;
-alert(total +" pesos")
-}
-*/
+
+
 
 let adivinanza = prompt("no muerde, ni ladra, pero la casa guarda. que es?");
 while (adivinanza != "la llave"){
@@ -32,5 +23,9 @@ while (adivinanza != "la llave"){
 }
 alert("muy bien adivinaste")
 
-    
-
+// marcaremos solo los dias lunes del mes de agosto 2022//
+for (let i = 1; i < 31; i+7) {
+    //let ingresar =parseInt( prompt("ingrsar el primer lunes del mes"));
+    //let mensaje = `lunes #${lunes} ingresar: $ ingresar: ${ingresar}`;
+    //alert (mensaje)
+    //console.log ("i") }
