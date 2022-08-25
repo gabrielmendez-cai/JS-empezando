@@ -15,17 +15,18 @@ if (usuario.toLowerCase === "gaby" &&  contraseña  === "090588" ) {alert ("ingr
 
 
 
-
+/*
 let adivinanza = prompt("no muerde, ni ladra, pero la casa guarda. que es?");
 while (adivinanza != "la llave"){
     alert ("es incorrecto, volve a intentarlo");
     adivinanza = prompt("no muerde, ni ladra, pero la casa guarda. que es?")
 }
 alert("muy bien adivinaste")
+*/ 
+let pregunta = prompt("ayudame dando click y con eso despegara a nave que quiere ir al espacio")
+let respuesta = "si"
+for(let nave = 0; nave < 10; nave++) {
+    alert(nave);
+}
+alert("despegamos!!!")
 
-// marcaremos solo los dias lunes del mes de agosto 2022//
-for (let i = 1; i < 31; i+7) {
-    //let ingresar =parseInt( prompt("ingrsar el primer lunes del mes"));
-    //let mensaje = `lunes #${lunes} ingresar: $ ingresar: ${ingresar}`;
-    //alert (mensaje)
-    //console.log ("i") }
